@@ -1,7 +1,7 @@
 # GEAA replication package
 
 Code and data for *When Governance Controls Collide: Authority Granularity and Exception Policies for LLM Agents*
-(ECIS 2027 submission, anonymized for review).
+
 
 GEAA (Governance-Embedded Agent Architecture) is middleware that mediates every tool call an LLM agent makes
 against a task-scoped grant. Everything is in one file, `geaa.py`.
