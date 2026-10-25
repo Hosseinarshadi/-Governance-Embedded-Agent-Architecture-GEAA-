@@ -1,0 +1,7 @@
+Policy transition,All pairs (949): change [95% CI],Mutation pairs (588): change [95% CI]
+No defense -> Authority gate,"-37.7 [-51.4, -24.9] pp","-60.9 [-71.4, -49.9] pp"
+Authority gate -> Gate + approver,"+18.2 [+9.7, +27.8] pp","+29.4 [+19.1, +40.0] pp"
+Gate + approver -> Gate + tier-constrained approver,"-18.2 [-27.9, -9.9] pp","-29.4 [-40.0, -19.2] pp"
+Authority gate -> Gate + required-scope provenance,"-13.7 [-19.7, -8.3] pp","-22.1 [-30.5, -14.2] pp"
+Gate + required-scope provenance -> Tool-granular gate,"-0.9 [-3.0, 0.0] pp","0.0 [0.0, 0.0] pp"
+Tool-granular gate -> Tool-granular + tier-constrained approver,"+14.6 [+9.5, +20.5] pp","+22.1 [+14.3, +30.5] pp"

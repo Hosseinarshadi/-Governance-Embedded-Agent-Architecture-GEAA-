@@ -1,0 +1,4 @@
+agentdojo==0.1.35
+anthropic>=0.40
+matplotlib>=3.8
+numpy

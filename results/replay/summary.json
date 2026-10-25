@@ -1,0 +1,242 @@
+{
+  "benchmark": "AgentDojo v1.2.2",
+  "order": "legit_first",
+  "terminal_text": "empty",
+  "configs": {
+    "no_defense": {
+      "pairs": 949,
+      "attack_success_all": 0.6238,
+      "attack_success_governable": 0.9711,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.5437,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 1.0,
+        "slack": 1.0,
+        "travel": 0.8286,
+        "workspace": 0.4054
+      }
+    },
+    "authority_gate": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    },
+    "gate_provenance": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    },
+    "full_system": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    },
+    "full_system_legacy": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    },
+    "gate_approver_noprov": {
+      "pairs": 949,
+      "attack_success_all": 0.4289,
+      "attack_success_governable": 0.6565,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.6354,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 214,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.7014,
+        "slack": 1.0,
+        "travel": 0.3286,
+        "workspace": 0.2768
+      }
+    },
+    "gate_provenance_noapprover": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    },
+    "gate_provenance_required": {
+      "pairs": 949,
+      "attack_success_all": 0.1096,
+      "attack_success_governable": 0.1412,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.8156,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.3264,
+        "slack": 0.2857,
+        "travel": 0.0357,
+        "workspace": 0.0393
+      }
+    },
+    "full_system_noapprover": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    },
+    "granular_gate": {
+      "pairs": 949,
+      "attack_success_all": 0.1001,
+      "attack_success_governable": 0.1412,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 12,
+      "utility": 0.8156,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.3264,
+        "slack": 0.2,
+        "travel": 0.0357,
+        "workspace": 0.0393
+      }
+    },
+    "granular_full": {
+      "pairs": 949,
+      "attack_success_all": 0.1096,
+      "attack_success_governable": 0.1412,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.8156,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 269,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.3264,
+        "slack": 0.2857,
+        "travel": 0.0357,
+        "workspace": 0.0393
+      }
+    },
+    "gate_tier_constrained": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 0,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    },
+    "granular_tier_constrained": {
+      "pairs": 949,
+      "attack_success_all": 0.2466,
+      "attack_success_governable": 0.3622,
+      "governable_pairs": 588,
+      "outside_boundary_pairs": 361,
+      "outside_boundary_successes": 21,
+      "utility": 0.7566,
+      "pairs_with_legit_call_blocked": 0,
+      "approvals": 449,
+      "scorer_errors": 0,
+      "attack_success_by_suite": {
+        "banking": 0.6875,
+        "slack": 0.5714,
+        "travel": 0.1214,
+        "workspace": 0.1036
+      }
+    }
+  },
+  "seconds": 255.0
+}

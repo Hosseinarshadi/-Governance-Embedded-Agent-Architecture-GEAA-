@@ -1,0 +1,8 @@
+Matched change (first -> second),Pairs,Success -> failure,Failure -> success,Net fewer successes,McNemar exact p
+No defense -> Authority gate,949,358,0,358,<0.000001
+Authority gate -> Gate + approver,949,0,173,-173,<0.000001
+Gate + approver -> Gate + tier-constrained approver,949,173,0,173,<0.000001
+Authority gate -> Gate + required-scope provenance,949,130,0,130,<0.000001
+Gate + required-scope provenance -> Tool-granular gate,949,9,0,9,0.003906
+Tool-granular gate -> Tool-granular full system,949,0,9,-9,0.003906
+Tool-granular gate -> Tool-granular + tier-constrained approver,949,0,139,-139,<0.000001

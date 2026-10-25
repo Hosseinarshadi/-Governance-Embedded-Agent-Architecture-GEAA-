@@ -1,0 +1,6 @@
+Configuration,Runs,Attack success,95% CI,Utility under attack,Calls blocked,Calls approved,Cost (USD)
+No defense,949,0.017,"[0.010, 0.027]",0.818,0,0,1.02
+Authority gate,946,0.018,"[0.011, 0.029]",0.807,0,0,0.87
+Gate + provenance,949,0.018,"[0.011, 0.029]",0.822,0,0,0.86
+Full system,948,0.019,"[0.012, 0.030]",0.821,0,0,0.85
+"Full system, legacy",949,0.020,"[0.013, 0.031]",0.819,0,0,0.83

@@ -1,0 +1,14 @@
+Configuration,Banking,Slack,Travel,Workspace
+No defense,1.000,1.000,0.829,0.405
+Authority gate,0.688,0.571,0.121,0.104
+Gate + provenance,0.688,0.571,0.121,0.104
+Full system,0.688,0.571,0.121,0.104
+"Full system, legacy",0.688,0.571,0.121,0.104
+Gate + approver,0.701,1.000,0.329,0.277
+"Gate + provenance, no approver",0.688,0.571,0.121,0.104
+Gate + required-scope provenance,0.326,0.286,0.036,0.039
+"Full system, no approver",0.688,0.571,0.121,0.104
+Tool-granular gate,0.326,0.200,0.036,0.039
+Tool-granular full system,0.326,0.286,0.036,0.039
+Gate + tier-constrained approver,0.688,0.571,0.121,0.104
+Tool-granular + tier-constrained approver,0.688,0.571,0.121,0.104
